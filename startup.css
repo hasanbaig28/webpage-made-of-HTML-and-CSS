@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-image:url("japan2.jpg");
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 50px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 15px 30px;
+	border:1px solid transparent;
+	transition: 0.6s ease;
+
+}
+ul li a:hover{
+	background-color: black;
+	color:  orange;
+}
+.logo{
+	float: left;
+	margin-top: 15px;
+	margin-left: 50px;
+}
+.main{
+	max-width: 1200%;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h2{
+	font-size: 2em;
+	color: black;
+	font-style: italic;
+}
